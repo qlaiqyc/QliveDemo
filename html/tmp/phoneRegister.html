@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="renderer" content="webkit"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge,chrome=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta HTTP-EQUIV="pragma" CONTENT="no-cache">
+    <meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+    <meta HTTP-EQUIV="expires" CONTENT="0">
+    <title>手机注册</title>
+    <link href="/m/assets/css/phoneRegister.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/m/assets/css/iconfont.css" />
+    <link href="/m/assets/css/common.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div class="login-input-box phone-reg-box">
+    <div class="login-account">
+        <input type="tel" data-type="phoneNumber" id="reg_phone_input" class="login-input phone-input" placeholder="请输入手机号码">
+        <div class="get-phone-cord" id="get_phone_cord">获取验证码</div>
+    </div>
+    <div class="login-account">
+        <input type="tel" data-type="phoneCode" id="reg_phone_code_input" class="login-input" placeholder="短信验证码">
+    </div>
+    <div class="login-account">
+        <input type="password" data-type="passWord" id="reg_phone_pwd_input" class="login-input pwd-input" placeholder="请设置密码">
+        <div class="pwd-input-right">
+            <span class="iconfont icon-xdn-delete" id="clear_phone_reg_pwd" style="display: none;"></span>
+            <span class="iconfont icon-xdn-bukejian" id="view_phone_reg_pwd"></span>
+        </div>
+    </div>
+
+    <input type="button" id="phone_reg_btn" class="login-btn" value="完成注册，进入新榜" disabled="true">
+
+</div>
+
+
+
+
+
+
+
+</body>
+<script language="javascript" src="http://localhost/assets/common/js/config/Qlive.js"></script>
+<script language="javascript" src="http://localhost/assets/common/js/config/QLive-config.js"></script>
+
+<script src="../../assets/js/components/phoneRegister.js"></script>
+
+</html>

@@ -1,0 +1,273 @@
+body{background-color: #f3f3f3;}
+.mine-body{margin-bottom: 3.5rem;}
+/*个人中心*/
+.p-top-head{
+    height: 10.36rem;
+    width: 100%;
+    background-color: #fff;
+}
+.p-top-head .p-top-head-logo{
+    height:6.78rem;
+    border-bottom: 1px solid #e3e3e3;
+}
+.p-top-head-logo .p-head{
+    float: left;
+    width: 4.28rem;
+    height:4.28rem;
+    border-radius: 100%;
+    /*border: 1px solid #ececec;*/
+    margin: 1.25rem 0.71rem 0 1.07rem;
+    background: url(../img/default_wx_head.png);
+    background-size: cover;
+}
+.p-top-head-logo .p-login{
+    float: left;
+    color:#333;
+    font-size: 1.28rem;
+    margin-top: 2.57rem;
+    width: 47%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.p-top-head-logo .p-unlogin{
+    color:#333;
+}
+.p-top-head-logo .p-right{
+    float: right;
+    margin-right: 1.07rem;
+    margin-top: 2.7rem;
+}
+/*.p-right .p-weixin-login{*/
+    /*width: 6.14rem;*/
+    /*height: 1.78rem;*/
+    /*line-height: 1.78rem;*/
+    /*border: 1px solid #ff8c00;*/
+    /*border-radius: 0.3rem;*/
+    /*color:#ff8c00;*/
+    /*font-size: 0.86rem;*/
+    /*text-align: center;*/
+/*}*/
+.p-right .p-to-detail-info{
+    font-size: 0.86rem;
+    color: #999;
+    margin-top: 0.28rem;
+}
+.p-to-detail-info span{
+    font-size: 0.8rem;
+    color: #999;
+}
+.p-right .p-to-detail-info{
+    font-size: .9rem ;
+}
+.p-right .p-weixin-login .iconfont{
+    font-size: 0.7rem;
+    margin-right: .2rem;
+}
+.personal-center-page .p-top-cash{
+    height:3.5rem;
+    line-height: 3.5rem;
+    font-size: 0.86rem;
+    color:#333;
+}
+.personal-center-page .p-top-cash span{
+    font-size: 1.14rem;
+    color:#999;
+    margin-left: 0.36rem;
+}
+.p-top-cash .p-remain-bangdou{
+    width: 49%;
+    float: left;
+    text-align: center;
+    color: #333;
+}
+.p-color-orange{
+    color: #ff8c00!important;
+}
+.p-top-cash .p-jiesuan-cash{
+    width: 49%;
+    float: left;
+    text-align: center;
+    color: #333;
+}
+.p-top-cash .p-seperate-line{
+    width: 1px;
+    height: 2.14rem;
+    background-color: #e3e3e3;
+    float: left;
+    margin-top: 0.71rem;
+}
+
+.p-info-row {
+    background: #fff;
+    margin: 0.71rem 0;
+    padding: 0 1.07rem;
+    border: none;
+    height: 3.57rem;
+    line-height: 3.57rem;
+    color: #333;
+    font-size: 1.14rem;
+}
+.p-info-row i{
+    font-size: 1.1rem;
+    color: #c3c3c3;
+    margin-right: .4rem;
+}
+.p-info-row span.next {
+    font-size: 0.8rem;
+    color: #999;
+    float: right;
+}
+.p-exit-login{
+    text-align: center;
+    color:#ff8c00;
+    font-size: 1.07rem;
+    margin: 1.43rem 0;
+}
+
+
+/*个人资料*/
+.i-head-and-name{
+    background-color: #fff;
+    margin-top: 1.43rem;
+}
+.i-head-and-name .i-head{
+    height:5rem;
+    line-height: 5rem;
+    border-bottom: 1px solid #e3e3e3;
+    color:#999;
+    font-size: 1rem;
+    margin: 0 1.07rem;
+}
+.i-head-and-name .i-head .i-head-box{
+    float: right;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 100%;
+    /*border: 1px solid #ececec;*/
+    margin: 0.71rem 0;
+    /*background: #f3f3f3;*/
+    background: url(../img/default_wx_head.png);
+    background-size: cover;
+}
+.personal-info-page .i-common-row{
+    background: #fff;
+    margin: 0 1.07rem;
+    border: none;
+    height: 3.71rem;
+    line-height: 3.71rem;
+    color: #333;
+    font-size: 1.14rem;
+}
+.personal-info-page .i-common-right{
+    font-size: 1.07rem;
+    color: #666;
+    float: right;
+}
+.personal-info-page .i-common-right span{
+    margin-left: .4rem;
+    font-size: .8rem;
+    color: #999;
+}
+.i-name-div span{
+    font-size: 1.07rem!important;
+    color: #666!important;
+}
+.personal-info-page .i-left-title{
+    color: #999;
+    font-size: 1rem;
+}
+.i-common-row-box{
+    margin-top: .71rem;
+    background-color: #fff;
+}
+.i-common-row-border{
+    border-bottom: 1px solid #e3e3e3!important;
+}
+.i-bind-weixin .icon-xdn-weixin{
+    color: #67bd66!important;
+    font-size: 0.9rem!important;
+}
+.i-bind-weixin .i-wx-name{
+    font-size: 1.07rem!important;
+    color: #666!important;
+}
+
+/*我的公众号*/
+.my-account-page{
+
+}
+.my-account-list .account-one{
+    background: #fff;
+    margin-bottom: 0.71rem;
+    height: 6.43rem;
+    padding: 0 1.07rem;
+}
+.account-one .a-left-img-box{
+    width: 4.15rem;
+    height: 4.15rem;
+    background: #fff;
+    border: 1px solid #E3E3E3;
+    border-radius: 100%;
+    margin-top: 1.07rem;
+    float: left;
+}
+.a-left-img-box .a-left-img{
+    width: 3.572rem;
+    height: 3.572rem;
+    border-radius: 100%;
+    margin: 0.31rem;
+}
+.a-account-detail {
+    float: left;
+    margin-left: 0.71rem;
+    margin-top: 1.71rem;
+}
+.a-account-detail .a-name{
+    font-size: 1.14rem;
+    color: #3a3a3a;
+}
+.a-account-detail .a-account{
+    font-size: 1rem;
+    color: #3a3a3a;
+    margin-top: 0.4rem;
+}
+.account-one .a-right-hns{
+    float: right;
+    margin-top: 2.35rem;
+    text-align: center;
+    width: 5.21rem;
+    height: 1.64rem;
+    line-height: 1.64rem;
+    border: 1px solid #d4d4d4;
+    border-radius: .28rem;
+    color: #999;
+    font-size: .86rem;
+}
+.account-one .a-right-hns .iconfont{
+    color:#999;
+    font-size:.86rem;
+    margin-right: .2rem;
+}
+.my-account-page .a-add-account{
+    background: #fff;
+    height: 5rem;
+    line-height: 5rem;
+    padding: 0 1.07rem;
+    font-size: 1.07rem;
+    color:#999;
+    margin-bottom: .71rem;
+}
+.a-add-account span.iconfont{
+    margin-right: .8rem;
+    font-size: 2.85rem;
+    color:#999;
+    float: left;
+}
+
+
+
+
+
+
+

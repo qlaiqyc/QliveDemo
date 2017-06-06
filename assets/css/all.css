@@ -1,0 +1,34 @@
+body{background: rgb(241,241,241);overflow-x: hidden!important;overflow-y: scroll;}
+a{text-decoration: none;}
+
+h2{margin: 0;padding: 0;line-height:3.35rem;font-size: 1.28rem;margin-left: 3%; font-weight: normal;}
+.master-service,.data-tools,.copyright-advertising,h2{background: rgb(255,255,255);}
+.data-tools{margin-top: 0.82rem;}
+.copyright-advertising{margin-top:0.71rem;}
+.master-service-li,.data-tools-li,.copyright-advertising-li{width:25%;text-align: center;float: left;}
+.iconfont{margin-bottom:0.46rem;border-radius: 50%;display: inline-block;}
+.master-service .iconfont,.data-tools .iconfont,.copyright-advertising .iconfont{font-size:3.07rem!important;}
+.icon-xdn-zixun{color:rgb(255,140,0);}
+.icon-xdn-remen{color:rgb(255,79,79);}
+.icon-xdn-tuiwu{color:rgb(255,200,23);}
+.icon-xdn-rongzi{color:rgb(235,62,16);}
+.icon-xdn-zhaopin{color:rgb(18,149,219);;}
+.icon-xdn-bianjiqi1{color:rgb(195,195,195);}
+.icon-xdn-haonei{color:rgb(255,140,0);}
+.icon-xdn-fenzhong{color:rgb(195,195,195);}
+.icon-xdn-gonghaohuicai{color:rgb(195,195,195);}
+.icon-xdn-weibohuicai{color:rgb(195,195,195);}
+.icon-xdn-yuedushu{color:rgb(195,195,195);}
+.icon-xdn-qushi{color:rgb(195,195,195);}
+.icon-xdn-wenzhongsousuo{color:rgb(195,195,195);}
+.icon-xdn-zidingbangdan{color:rgb(195,195,195);}
+.icon-xdn-tuwendaoru{color:rgb(195,195,195);}
+.icon-xdn-h{color:rgb(195,195,195);}
+.icon-xdn-guanggao{color:rgb(195,195,195);}
+.icon-xdn-banquanfuwu{color:rgb(195,195,195);}
+
+
+.nav-name{text-align: center;font-size:0.92rem;line-height:1rem;margin:0;height: 1rem;margin-bottom: 1rem;color:rgb(51,51,51);}
+.nav-name.no-mobile-version{color:rgb(153,153,153);}
+
+.explain{margin-bottom: 3.5rem;font-size: 0.92rem;text-align: center;margin-top: 0.5rem;color:rgb(153,153,153);padding-bottom: 0.5rem;}

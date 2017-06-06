@@ -1,0 +1,18 @@
+body{background-color: #f3f3f3;}
+.about-body{margin-top: 2.5rem;}
+.about-main{ background-color: #fff; }
+.about-row{ margin: 0 0.71rem;  height: 3.57rem;  line-height: 3.57rem;  color:#333;  font-size:1.14rem; border-bottom: 1px solid #e3e3e3;}
+.about-row span.next{ font-size: 0.8rem;color: #999;  float: right; }
+.about-main a:last-child .about-row{ border:none; }
+.contact-us{background: #fff;  margin: 0.71rem 0;  padding: 0 0.71rem;  border: none; }
+
+
+/*¹ØÓÚÐÂ°ñ*/
+.about-box{padding:1.43rem; background: #fff;}
+.about-box div.about-title {font-size: 1.14rem;  color: #333;  padding-left: 0.36rem;  border-left: 0.28rem solid #ff8c00;  height: 1.28rem;  line-height: 1.28rem;  margin-bottom: 0.86rem; }
+.about-box p{font-size: 1.07rem; color:#333; line-height: 1.78rem;}
+.about-box p.p-title{color: #FF8C00;line-height: 3.14rem;}
+p.p-last{margin-top: 0.71rem;}
+.about-box-two p{margin:0.71rem 0; }
+.about-box-two{margin-top: 0.71rem;}
+

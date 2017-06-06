@@ -1,0 +1,93 @@
+body{background: rgb(246,246,246);overflow-x: hidden!important;overflow-y: scroll;}
+h3{margin: 0;padding: 0;}
+.mask{ position: fixed;  top: 0;  left: 0;  width: 100%;  height: 100%;  background-color: #000;  opacity: .1;  filter: Alpha(opacity=10);  z-index: 100;}
+
+#search{background: rgb(255,255,255);width:100%;position: fixed;top:0;left:0;z-index:99;}
+.input-search{display: flex;justify-content: space-between;}
+.input-search-div{height: 1.93rem;line-height:1.93rem;border: none;width: 80%;margin-top:0.71rem;margin-bottom:0.71rem;margin-left: 3%;position:relative;background: rgb(236,236,236);border:2px solid #e3e3e3;border-radius: 0.5rem;}
+#search .weChat-search{background: rgb(236,236,236);font-size:0.85rem;line-height: 0.93rem;display: block;outline: 0;padding:0.5rem 0 0.5rem 9%;position:absolute;top:0;left: 0;margin:0;width: 90%;color:rgb(51,51,51);border:none;}
+.icon-xdn-search{font-size: 0.9rem;color: rgb(195,195,195);line-height: 1.93rem;float: left;position: absolute;top:0;left:3%;}
+.search-cancel{display:none;float: right;margin-top: 0.71rem;margin-right:3%;line-height: 1.93rem;color:rgb(153,153,153);font-size: 1.21rem;padding-top: 2px;}
+#search-yes{float: right;margin-top: 0.71rem;margin-right:3%;line-height: 1.93rem;color:rgb(153,153,153);font-size: 1.21rem;padding-top: 2px;}
+.icon-xdn-delete{position:absolute;margin-top: 0px; right: 3%; color: rgb(193, 193, 193); font-size: 1rem; top: 0rem; padding: 0px; display: none;}
+
+.wechat-choose-position{position: fixed;top:3.6rem;left:0;z-index:101;width:100%;border-bottom:1px solid rgb(227,227,227);}
+.wechat-choose{height:2.85rem;line-height:2.85rem;width:100%;background: rgb(255,255,255);position: relative;}
+.icon-xdn-rank{margin-left:3%;margin-right: 0.39rem;font-size:0.9rem;color:rgb(195,195,195);}
+.list-index{margin-right:0.75rem;}
+.wx-type span{color:rgb(153,153,153);font-size:0.92rem;}
+.wx-selected{color:rgb(51,51,51)!important;}
+.wx-arrow{position: absolute;top:0;right: 3%;height:2.75rem;}
+.search-choose{color:rgb(153,153,153);}
+.icon-xdn-xiala{font-size: 0.5rem;color:rgb(195,195,195);margin-left: 0.5rem;}
+.wx-arrow span{font-size:0.92rem;}
+.label-choose{color:rgb(255,140,0);}
+.hover-all-wx-type { width:94%;height:3.57rem;position: absolute;  top: 2.85rem;  left: 0;  background: #fff; border-top: 1px solid #e3e3e3;padding:0 3%;display: flex;justify-content: space-between;align-items: center;z-index:101; }
+.hover-all-wx-type span { width:13.62%;height:1.35rem;line-height:1.43rem; color: rgb(168,168,168); display: inline-block;  text-align: center;border:1px solid rgb(227,227,227);background: rgb(251,251,251); font-size:0.71rem;border-radius:0.25rem; }
+.hover-all-wx-type-detail{display:none;}
+.arrow-up{ background-position: -48px -96px!important;  }
+.search-yes{position: absolute;top:0;right:3%;display: none;width:2rem;height:2.85rem;color:rgb(255,140,0);}
+span.wx-selected-detail{background: rgb(255,140,0);color:rgb(255,255,255);border:1px solid rgb(255,140,0);}
+
+.wechat-content{margin-bottom: 3.5rem;margin-top:7rem;}
+.wechat-content-brand-li{width:94%;background: rgb(255,255,255);margin-top:0.71rem;padding: 0 3%;}
+.name-top{font-size: 1.21rem;padding-top:1.36rem;padding-bottom:0.78rem;color:rgb(255,140,0);}
+.brand-detail{display: flex;}
+.wechat-content-brand-li-left{padding: 0.36rem 0.71rem 0.64rem 0;}
+.wechat-content-brand-li-right{flex:1}
+.wx_logo-img{width:2.85rem;height: 2.85rem;border-radius: 50%;display: inline-block;margin-top:0.36rem;}
+.brand-wx-description{width:100%;line-height:1.4rem;overflow : hidden; text-overflow: ellipsis;  display: -webkit-box;  -webkit-line-clamp: 3;  -webkit-box-orient: vertical;color:rgb(51,51,51);font-size: 1rem;}
+.brand-name{color:rgb(255,140,0);}
+.brand-link{width: 1.78rem; height: 0.85rem;line-height: 1rem; background: rgba(0,176,240,0.8);text-align: center;  font-size: 0.71rem;  color: #fff;  margin-left: 0.64rem; }
+.brand-business{width:100%;margin-top: 0.6rem;min-height:1rem;border-bottom: 1px solid rgb(227,227,227);}
+.brand-business-li{width:24%;border-right: 1px solid rgb(153,153,153);display: inline-block;margin-bottom: 0.55rem;text-align: center;color:rgb(153,153,153);}
+.brand-business-li:nth-child(4n),.brand-business-li:last-child,.brand-about-service-li:last-child{border-right: none;}
+.brand-about-service{line-height:3.10rem;width:100%;display: flex;justify-content: space-between;align-items: center;}
+.brand-about-service-li{display: block;font-size: 1rem;color:rgb(51,51,51);}
+
+.wechat-number{height:3.21rem;line-height:3.21rem;padding:0 3%;width:94%;background: rgb(255,255,255);}
+.icon-xdn-gouxuan{font-size: 0.9rem;margin-right: 0.3rem;}
+.icon-xdn-gouxuan:before {background: rgb(255,140,0); border-radius: 50%;  color: rgb(254,236,182);}
+.wechat-company{float:left;color:rgb(51,51,51);}
+.wechat-company-number{float:right;color:rgb(153,153,153);font-size: 1.07rem;font-size:0.71rem;}
+.wechat-company-number span{color:rgb(255,140,0);font-size:1.42rem;margin-left: 0.3rem;}
+.wechat-content-li{width:94%;background: rgb(255,255,255);margin-top:0.71rem;padding: 0 3%;display: flex;}
+.wechat-content-li-left{padding: 1rem 0.71rem 1rem 0;}
+.wechat-content-li-right{flex:1;}
+.wx_lp{position: relative;}
+.wx_logo{width:3.57rem;height:3.57rem;border-radius: 50%;text-align: center;overflow: hidden;border: 1px solid rgb(241,241,241);}
+.wx_logo a{width:2.85rem;height: 2.85rem;border-radius: 50%;display: inline-block;margin-top:0.36rem;zoom:0.5;}
+.wechat-content-li-right{flex:1;position: relative;padding: 1rem 0;}
+.wx_title{font-size: 1.21rem;color:rgb(51,51,51);font-weight: 400;}
+.itemLabel-li:nth-child(1){border-left:1px solid rgb(51,51,51);margin-left: 0;padding-left: 0.35rem;}
+.itemLabel-li{margin-left: 0.35rem;}
+.wx_description{width:100%;overflow : hidden; text-overflow: ellipsis;  display: -webkit-box;  -webkit-line-clamp: 2;  -webkit-box-orient: vertical;font-size:0.92rem;color:rgb(153,153,153);word-break: break-all;margin-top:0.2rem;}
+.wxh.clearfix{font-size:0.92rem;color:rgb(51,51,51);min-height:0.92rem;margin-top:0.2rem;}
+.wx_label{font-size:0.85rem;color:rgb(51,51,51);margin-top:0.2rem;}
+.wx_index_num{position: absolute;top:2.5rem;right:0;font-size:1.42rem;color:rgb(255,140,0);}
+.wx-v{font-size:0.92rem;color:rgb(51,51,51);margin-top:0.2rem;}
+.icon-xdn-v1{font-size:0.8rem;color:rgb(255,140,0);margin-left: 0.36rem;}
+
+input[type="search"]{-webkit-appearance:none;}
+input::-webkit-search-cancel-button {display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

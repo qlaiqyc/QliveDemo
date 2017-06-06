@@ -1,0 +1,67 @@
+body{background-color: #f3f3f3;}
+.chongzhi-box{
+    background-color: #fff;
+    padding:1.93rem 2rem;
+}
+.chongzhi-type-box{
+    /*margin-bottom: 2.86rem;*/
+}
+.chongzhi-type-box .cz-type{
+    font-size: 1.71rem;
+    color:#333;
+}
+.chongzhi-type-box .cz-order-num{
+    font-size: 1.14rem;
+    color:#999;
+    margin-top: .2rem;
+}
+
+.pay-btn{
+    height: 3.14rem;
+    line-height: 3.14rem;
+    background: none;
+    background-color: rgba(227,25,25,1);
+    border-radius: 0.7rem;
+    width: 90%;
+    margin: 2.71rem auto 0;
+    border: none;
+    font-size: 1.28rem;
+    color: #fff;
+    display: block;
+    outline: none;
+    -webkit-appearance: none;
+}
+.card-pay-btn{
+    background-color: rgba(227,25,25,0.3);
+}
+.chongzhi-by-card-box{
+    height: 56px;
+    line-height: 56px;
+    background-color: #fff;
+    font-size: 15px;
+    color:#333;
+    margin-top: 15px;
+}
+.chongzhi-by-card-box span{
+    /* width: 35%; */
+    float: left;
+    text-align: center;
+    padding-left: 15px;
+}
+.chongzhi-by-card-box .cz-card-input{
+    width: 65%;
+    float: right;
+    font-size: 14px;
+    color: #d4d4d4;
+    border: none;
+    outline: none;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 8px;
+}
+.cz-card-input-focus{
+    color: #333333!important;
+}
+
+
+

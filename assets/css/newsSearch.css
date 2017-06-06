@@ -1,0 +1,28 @@
+body{background: rgb(246,246,246);overflow-x: hidden!important;overflow-y: auto;}
+
+#search{background: rgb(255,255,255);width:100%;border-bottom: 1px solid rgb(227,227,227);}
+.input-search{display: flex;justify-content: space-between;}
+.input-search-div{height: 1.93rem;line-height:1.93rem;border: none;width: 80%;margin-top:0.71rem;margin-bottom:0.71rem;margin-left: 3%;position:relative;background: rgb(236,236,236);border:2px solid #e3e3e3;border-radius: 0.5rem;}
+#search .new-search{background: rgb(236,236,236);font-size:0.85rem;line-height: 0.93rem;display: block;outline: 0;padding:0.5rem 0 0.5rem 9%;position:absolute;top:0;left: 0;margin:0;width: 90%;color:rgb(51,51,51);border:none;}
+.icon-xdn-search{font-size: 0.9rem;color: rgb(195,195,195);line-height: 1.93rem;float: left;position: absolute;top:0;left:3%;}
+
+.search-cancel{float: right;margin-top: 0.71rem;margin-right:3%;line-height: 1.93rem;color:rgb(153,153,153);font-size: 1.21rem;padding-top: 2px;}
+.search-yes{float: right;margin-top: 0.71rem;margin-right:3%;line-height: 1.93rem;color:rgb(153,153,153);font-size: 1.21rem;display: none;padding-top: 2px;}
+.search-recommend{padding-top: 1.07rem;font-size: 0.92rem;color:rgb(193,193,193);margin-left: 3%;height:1.6rem;}
+.icon-xdn-delete{float: right;margin-top: 0px;color: rgb(193, 193, 193); font-size: 1rem; padding: 0px; display: none;}
+#new-search-inaccount-head-del{position:absolute;top: 0;right: 3%;}
+
+
+.recommend-li{height:5rem;width:100%;background: rgb(255,255,255);}
+.recommend-li-detail{margin-left: 3%;padding-top: 0.71rem;}
+.recommend-li span{display: inline-block;border:1px solid rgb(227,227,227);border-radius: 0.25rem;padding:0.32rem 0.64rem 0.28rem;margin-right: 2%;font-size: 0.78rem;color:rgb(153,153,153);line-height: 0.78rem;}
+.font-active{color:rgb(255,140,0)!important;}
+
+.search-history{height: 1.6rem;margin-left: 3%;color:rgb(174,174,174);font-size: 0.92rem;padding-top:1.07rem;float: left;}
+.search-history-detail-del{margin-top: 1.07rem;margin-right:3%;display: block;font-size: 0.92rem;color:rgb(227,227,227);}
+
+.search-history-detail{background: rgb(255,255,255);min-height:2.39rem;width:94%;margin-bottom: 3.5rem;padding:0.71rem 3% 0;}
+.new-search-history-detail-li{display: inline-block;border:1px solid rgb(227,227,227);border-radius: 0.25rem;padding:0.32rem 0.64rem 0.28rem;margin:0 2% 0.71rem 0;font-size: 0.78rem;color:rgb(153,153,153);line-height: 0.78rem;}
+
+input[type="search"]{-webkit-appearance:none;}
+input::-webkit-search-cancel-button {display: none;}

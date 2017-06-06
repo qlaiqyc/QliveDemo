@@ -1,0 +1,245 @@
+/*body{background-color: #f3f3f3;}*/
+.login-tab {
+    width: 100%;
+    height: 2.86rem;
+    background-color: #fff;
+    border-bottom: 1px solid #e3e3e3;
+}
+.login-tab span{
+    width: 50%;
+    height: 2.69rem;
+    line-height: 2.86rem;
+    color: #999;
+    font-size: 1.14rem;
+    text-align: center;
+    float: left;
+}
+.login-tab span.active{
+    color: #FF8C00;
+    border-bottom: 2px solid #ff8c00;
+}
+.login-bg-gray{
+    height: .71rem;
+    background-color: #f3f3f3;
+}
+.login-input-box{
+    background-color: #fff;
+    width: 91%;
+    margin: auto;
+}
+.login-account{
+    height: 3.93rem;
+    line-height: 3.71rem;
+    font-size: 1.14rem;
+    color: #999;
+    /* margin: 0 1.07rem; */
+    width: 100%;
+    margin: auto;
+    border-bottom: 1px solid #e3e3e3;
+}
+.login-identifycode-row{
+    display: none;
+    /*visibility: hidden;*/
+}
+.account-identifycode-input{
+    width: 60%!important;
+}
+.login-account-identifycode{
+    height: 2.14rem;
+    width: 4.93rem;
+    margin-top: 0.93rem;
+}
+input.login-input{
+    border: none;
+    /*border-bottom: 1px solid #e3e3e3;*/
+    width: 100%;
+    height: 3rem;
+    outline: none;
+    font-size: 1.14rem;
+    color: #999;
+    border-radius: initial;
+}
+input.pwd-input{
+    width: 76%;
+}
+.login-account span.icon-xdn-delete{
+    font-size: 1.05rem;
+    color: #c3c3c3;
+    margin-right: .7rem;
+}
+.login-account span.icon-xdn-kejian{
+    font-size: .95rem;
+    color: #c3c3c3;
+}
+.pwd-input-right{
+    float: right;
+    text-align: right;
+    margin-right: .7rem;
+}
+.login-btn{
+    height: 3.14rem;
+    line-height: 3.14rem;
+    background: none;
+    background-color: #ffd6b2;
+    border-radius: 0.7rem;
+    width: 100%;
+    margin: 2.71rem auto 0;
+    border: none;
+    font-size: 1.28rem;
+    color: #fff;
+    display: block;
+    outline: none;
+    -webkit-appearance: none;
+}
+.login-bottom{
+    margin-top: 1.21rem;
+}
+.login-bottom a.phone-reg{
+    float: left;
+    font-size: 1rem;
+    color:#333;
+}
+.login-bottom a.reset-pwd{
+    float: right;
+    font-size: 1rem;
+    color:#333;
+}
+input.phone-input{
+    width: 68%;
+}
+.login-account div.get-phone-cord {
+    width: 24%;
+    height: 1.78rem;
+    border-radius: 0.28rem;
+    line-height:1.78rem;
+    text-align: center;
+    color: #fff;
+    float: right;
+    font-size: 0.86rem;
+    margin-top: 1.07rem;
+    background: #5cb85c;
+}
+.phone-code-box{
+    font-size: 1.14rem;
+    color: #999;
+    width: 100%;
+    margin: 1.07rem auto 0;
+    text-align: center;
+}
+.phone-code-box input.phone-code-input{
+    border: none;
+    height: 2.14rem;
+    outline: none;
+    font-size: 1.14rem;
+    color: #999;
+    width: 2.86rem;
+    border-bottom: 1px solid #999;
+    margin-right: 1.43rem;
+    text-align: center;
+    border-radius: initial;
+    -webkit-appearance: none;
+}
+.phone-code-box input:last-child{
+    margin-right: 0;
+}
+.phone-disable{
+    background-color:rgba(92,184,92,0.6)!important;
+}
+
+/*Î¢ÐÅµÇÂ¼*/
+.weixin-user-box{
+    margin:1.43rem 1.07rem;
+}
+.weixin-user-box .weixin-user-head{
+    width: 7.14rem;
+    height: 7.14rem;
+    margin: 1.43rem auto 0.78rem;
+    border-radius: 100%;
+    /*background: #e3e3e3;*/
+    background: url(../img/default_wx_head.png);
+    background-size: cover;
+}
+.weixin-user-box .weixin-user-name{
+    font-size: 1.28rem;
+    color:#333;
+    text-align: center;
+}
+.weixin-user-box p{
+    font-size: 1.07rem;
+    color:#333;
+    margin: 3.07rem auto 1.78rem;
+}
+.weixin-user-account-box .weixin-account-one{
+    height: 3rem;
+    line-height: 3rem;
+    border-radius: 0.7rem;
+    width: 100%;
+    margin: 1.43rem auto 0;
+    font-size: 1.28rem;
+    color: #333;
+    border: 1px solid #d4d4d4;
+    background: #fff;
+    text-align: center;
+}
+.weixin-user-account-box .weixin-account-one:hover{
+    color:#fff;
+    background-color: #ff8c00;
+    border-color:#ff8c00;
+}
+.body-bg-gray{
+    background-color: #f1f1f1;
+}
+.login-by-weixin-auth{
+    margin: 3.35rem auto 0;
+    text-align: center;
+}
+.login-by-weixin-auth .login-sep-line{
+    display: inline-block;
+    width: 33%;
+    height: 1px;
+    background-color: #e3e3e3;
+    float: left;
+    margin-top: 0.64rem;
+}
+.login-sep-line-right{
+    float: right!important;
+}
+.login-by-weixin-auth .login-sep-text{
+    font-size: 1rem;
+    color:#333;
+}
+.login-wx-auth-bth{
+    width: 5.71rem;
+    height: 5.71rem;
+    line-height: 5.71rem;
+    border: 1px solid #d4d4d4;
+    margin: 2.64rem auto 0;
+    text-align: center;
+    color: #00cb0f;
+    border-radius: 100%;
+}
+.login-wx-auth-bth span.iconfont{
+    font-size: 2.5rem;
+}
+
+
+/*×¢²á*/
+.phone-reg-box{
+    margin-top: .71rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

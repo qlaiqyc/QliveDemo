@@ -1,0 +1,252 @@
+body{background-color: #f3f3f3;}
+.top-nav{
+    width: 100%;
+    height: 2.86rem;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid #e3e3e3;
+    z-index: 1003;
+}
+.top-nav a{
+    width:33.33%;
+    height: 2.69rem;
+    line-height: 2.86rem;
+    color:#999;
+    font-size:1.14rem ;
+    text-align: center;
+    float: left;
+}
+.top-nav a.active{
+    color:#FF8C00;
+    border-bottom: 2px solid #ff8c00;
+}
+.top-nav a:hover{
+    color:#FF8C00;
+    border-bottom: 2px solid #ff8c00;
+}
+.list-body{
+    /*margin-top: 0.71rem;*/
+    background-color: #fff;
+    margin-top: 3.57rem;
+}
+.top-show-type{
+    height: 3.57rem;
+    line-height: 3.57rem;
+    color: #333;
+    font-size: 1.14rem;
+    padding: 0 0.71rem;
+    border-bottom: 1px solid #e3e3e3;
+    position: relative;
+    z-index: 101;
+    background: #fff;
+}
+.top-show-type .top-50{
+    float: left;
+    font-size: 0.93rem;
+    color: #999;
+}
+.top-show-type .top-date-type{
+    float: left;
+    width: 65%;
+    text-align: center;
+}
+.top-show-type .top-type{
+    margin-left: 0.3rem;
+}
+.list-body .month-report{
+    height: 2.86rem;
+    line-height: 2.86rem;
+    text-align: center;
+    margin-top: -0.71rem;
+    font-size: 1rem;
+    background-color: #f9d6ac;
+    color: #ff8c00;
+    display: none;
+}
+.top-right{
+    float: right;
+    color:#999;
+    margin-right: 0.71rem;
+}
+.top-right span{
+    font-size: 1rem;
+}
+.top-confirm{
+    float: right;
+    color:#ff8c00;
+    font-size: 1rem;
+    display: none;
+    margin-right: 1.28rem;
+}
+.top-right i{
+    font-size: 0.5rem;
+}
+.list-mask{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .1;
+    filter: Alpha(opacity=10);
+    z-index: 100;
+}
+.top-custom-box{
+    position: absolute;
+    top: 3.68rem;
+    background-color: #fff;
+    left: 0;
+    z-index: 101;
+}
+.choose-date-div{
+    padding:0.2rem 0.71rem 0.1rem;
+    border-bottom: 1px solid #E3E3E3;
+    line-height: 0;
+}
+.choose-date-div span{
+    display: inline-block;
+    width: 20%;
+    margin: 3px 8px 5px 7px;
+    background-color: #fbfbfb;
+    height: 1.43rem;
+    line-height: 1.43rem;
+    color: #999;
+    font-size: 0.71rem;
+    border: 1px solid #E3E3E3;
+    text-align: center;
+    border-radius: 5px;
+}
+.choose-date-div span.week-date{
+    width: 28%;
+    margin: 3px 9px 5px 7px;
+}
+.choose-wx-type-div span{
+    display: inline-block;
+    width: 20%;
+    margin: 3px 8px 5px 7px;
+    background-color: #fbfbfb;
+    height: 1.43rem;
+    line-height: 1.43rem;
+    color: #999;
+    font-size: 0.71rem;
+    border: 1px solid #E3E3E3;
+    text-align: center;
+    border-radius: 5px;
+}
+.top-custom-box span.active{
+    background-color: #ff8c00;
+    border:1px solid #ff8c00;
+    color:#fff;
+}
+.choose-wx-type-div{
+    padding:0.2rem 0.71rem 0.5rem;
+    line-height: 0;
+}
+.list-main th{
+    height: 2.86rem;
+    background-color: #fff;
+    color:#333;
+    font-size: 0.93rem;
+    font-weight: normal;
+}
+.list-data-table tr{
+    height: 4.28rem;
+}
+.list-data-table tr.even{
+    background-color: #f1f1f1;
+}
+.list-data-table tr td{
+    text-align: center;
+}
+.list-data-table td.top-one{
+    color:#ff8c00;
+}
+.list-data-table td.top-two{
+    color:#ffa333;
+}
+.list-data-table td.top-three{
+    color:#ffc67f;
+}
+.account-div{
+    float: left;
+}
+.account-div .left-head-img{
+    float: left;
+    width: 2.86rem;
+    height: 2.86rem;
+    border-radius: 5px;
+}
+.account-div .account-info{
+    float: left;
+    margin-left: 0.4rem;
+    margin-top: 0.2rem;
+    text-align: left;
+}
+.account-info .name{
+    color:#393a3a;
+    font-size: 1.07rem;
+}
+.account-info .account{
+    color:#666;
+    font-size: 0.71rem;
+    margin-top: 0.3rem;
+}
+.newrank-index{
+    font-size: 1.07rem;
+    color:#ff8c00;
+}
+.list-main{
+    margin-bottom: 3.5rem;
+}
+
+
+@media screen and (max-width:350px){
+    .choose-date-div span {
+        display: inline-block;
+        width: 20%;
+        margin:3px 8px 5px 5px;
+        background-color: #fbfbfb;
+        height: 1.43rem;
+        line-height: 1.43rem;
+        color: #999;
+        font-size: 0.71rem;
+        border: 1px solid #E3E3E3;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .choose-wx-type-div span {
+        display: inline-block;
+        width: 20%;
+        margin: 3px 8px 5px 5px;
+        background-color: #fbfbfb;
+        height: 1.43rem;
+        line-height: 1.43rem;
+        color: #999;
+        font-size: 0.71rem;
+        border: 1px solid #E3E3E3;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .choose-date-div span.week-date {
+        width: 44%;
+        margin: 3px 11px 5px 5px;
+    }
+    .choose-date-div span.month-date{
+        width: 28%;
+        margin: 3px 9px 5px 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="renderer" content="webkit"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge,chrome=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta HTTP-EQUIV="pragma" CONTENT="no-cache">
+    <meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+    <meta HTTP-EQUIV="expires" CONTENT="0">
+    <meta name="Description" content="以日、周、月、年为周期，按24大分类权威发布以微信为代表的中国各自媒体平台最真实、最具价值的运营榜单，方便用户了解新媒体整体发展情况，为用户提供有效的参考导向"/>
+    <meta name="Keywords" content="新媒体,自媒体,排名,日榜,周榜,月榜,500强,微信,微博,今日头条,平台,地域,行业,定制" />
+    <title>公众号详情</title>
+    <link rel="stylesheet" href="/m/assets/css/iconfont.css"/>
+    <link href="/m/assets/css/common.css" rel="stylesheet" type="text/css">
+    <link href="/m/assets/css/detail.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div class="top-nav">
+    <a class="active detail" id="list_detail">公众号详情</a>
+    <a class="article" id="public_article">发布文章</a>
+    <a class="card" id="account_card">公众号名片</a>
+</div>
+
+<div class="page-main" id="page_main">
+    <div class="list-detail-body" id="list_detail_body" >
+
+        <div class="no-charts-show-tip" id="charts_show_tip">
+            <!--<img src="/m/assets/img/result-empty.png" alt=""/>-->
+            <!--<p>抱歉，该账号已超过7天未推送图文内容</p>-->
+            <!--<p>无趋势图展示</p>-->
+        </div>
+
+        <div class="list-detail-info-main" id="list_detail_info_main">
+            <div class="card-top-account">
+                <div class="card-left-img-box">
+                    <div class="card-left-img" >
+                        <i class="iconfont icon-xdn-v"></i>
+                    </div>
+                </div>
+                <div class="card-account-detail">
+                    <div class="card-name">
+                        <span class="name"></span>
+                        <span class="brand">品牌</span>
+                    </div>
+                    <div class="card-account" id="card_account_long"></div>
+                </div>
+            </div>
+
+            <div class="list-detail-info">
+                <div class="list-info-top clear">
+                    <div class="list-info-date" id="list_info_date">
+                        <span class="list-date" id="list_date"></span>
+                        <span class="iconfont icon-xdn-xiala"></span>
+                    </div>
+                    <div class="list-date-ul" id="list_date_ul" style="display: none">
+                        <div class="list-triangle"></div>
+                        <!--<span>03月08日</span>-->
+                    </div>
+                    <div class="list-top-left-num">
+                        <!--<div class="left-public-num">发布篇数<div class="align-right"><span class="num" id="public_count">0</span><span class="unit">篇</span></div></div>-->
+                        <!--<div class="left-release-num">发布次数<div class="align-right"><span class="num" id="release_time">0</span><span class="unit">次</span></div></div>-->
+                        <!--<div class="left-hundred-public">10W+发布<div class="align-right"><span class="num" id="hundred_public_time" style="width: 20px;">0</span><span class="unit">篇</span></div></div>-->
+
+                        <div class="left-num-text">
+                            <div>发布篇数</div>
+                            <div>发布次数</div>
+                            <div>10W+发布</div>
+                        </div>
+                        <div class="left-align-right-num">
+                            <div class="right-public-num">
+                                <span class="num" id="public_count">0</span>篇
+                            </div>
+                            <div class="right-public-num">
+                                <span class="num" id="release_time">0</span>次
+                            </div>
+                            <div class="right-public-num">
+                                <span class="num" id="hundred_public_time">0</span>篇
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="list-top-part-line"></div>
+                    <div class="list-right-rank">
+                        <div class="list-right-newrank-index list-right-div">
+                            <p>新榜指数</p>
+                            <p class="index" id="newrank_index">0</p>
+                        </div>
+                        <div class="list-right-div">
+                            <p>排名</p>
+                            <p class="index" id="rank_mc">0</p>
+                        </div>
+                        <!--<div class="list-right-tag m-pic" id="list_right_tag"></div>-->
+                        <div class="list-right-tag m-pic" id="list_right_tag"></div>
+                    </div>
+                </div>
+
+                <div class="list-info-bottom">
+                    <div class="list-bottom-tab" id="list_bottom_read_tab">
+                        <span class="list-total  first-tab checked" data="total">总计</span><span class="list-average">平均</span>
+                    </div>
+                    <div class="list-bottom-box clear">
+                        <div class="list-bottom-read-num">
+                            <div class="list-read-num" id="list_read_num"></div>
+                            <div class="list-bottom-title">
+                                <span class="iconfont icon-xdn-read"></span>
+                                <span class="l-title">阅读数</span>
+                            </div>
+                        </div>
+                        <div class="list-bottom-read-num">
+                            <div class="list-read-num" id="list_toutiao_read_num"></div>
+                            <div class="list-bottom-title">
+                                <span class="iconfont icon-xdn-toutiao"></span>
+                                <span class="l-title">头条阅读数</span>
+                            </div>
+                        </div>
+                        <div class="list-bottom-read-num">
+                            <div class="list-read-num" id="list_click_num"></div>
+                            <div class="list-bottom-title">
+                                <span class="iconfont icon-xdn-zan"></span>
+                                <span class="l-title">点赞数</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="list-info-charts" style="width:100%;">
+                <div class="list-bottom-tab" id="list_bottom_tab">
+                    <span class="first-tab checked" data="index">指数</span><span class="">排名</span>
+                </div>
+                <div class="list-info-charts-detail" style=" width: 90%;height: 150px; ">
+                    <div class="list-info-charts-box" style=" width:100%;height: 150px;"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="public-article-body" id="public_article_body" style="display: none;">
+        <div class="topic-top-tab" id="topic_top_tab">
+            <span class="latest-public checked" data="latest">最新发布</span><span class="seven-hot" data="top-seven">七天热门</span>
+            <div class="to-hns" id="to_hns"><i class="iconfont icon-xdn-search"></i><i>搜历史发布</i></div>
+        </div>
+        <div class="public-article-list" id="public_article_list">
+            <!--<div class="article-one clear">-->
+            <!--<div class="left-article-img"><img src="http://img.xdnphb.com/ueditor/edit/upload/cover/20170320/1490003055989046434.jpg"></div>-->
+            <!--<div class="right-article-info">-->
+            <!--<div class="h-title">聊聊神舟做得最好看的笔记本电脑</div>-->
+            <!--<div class="h-bottom">-->
+            <!--<span class="h-date">03-14 21:00</span>-->
+            <!--<div class="h-right">-->
+            <!--<div class="h-read">-->
+            <!--<i class="iconfont icon-xdn-read"></i>-->
+            <!--<span class="read-num">10万+</span>-->
+            <!--</div>-->
+            <!--<span class="h-line"></span>-->
+            <!--<div class="h-like">-->
+            <!--<i class="iconfont icon-xdn-zan"></i>-->
+            <!--<span class="like-num">63479</span>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+        </div>
+    </div>
+
+    <div class="account-card-body" id="account_card_body" style="display: none;">
+        <div class="card-top-account">
+            <div class="card-left-img-box">
+                <div class="card-left-img" id="card_left_img">
+                    <i class="iconfont icon-xdn-v"></i>
+                </div>
+            </div>
+            <div class="card-account-detail">
+                <div class="card-name">
+                    <span class="name"></span>
+                    <span class="brand">品牌</span>
+                </div>
+                <div class="card-account" id="card_account_short"></div>
+            </div>
+            <div class="card-right-box">
+                <div class="card-right-index"></div>
+                <p>新榜指数</p>
+            </div>
+
+        </div>
+
+        <!--<div class="honour-medal">-->
+            <!--<div class="card-left-title">荣誉勋章</div>-->
+            <!--<div class="card-row-right">-->
+                <!--<span class="iconfont icon-xdn- icon-500"></span>-->
+                <!--<span class="iconfont icon-xdn-renzheng icon-renzhen"></span>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <div class="card-info clear">
+            <div class="function-profile clear">
+                <div class="card-left-title">功能简介</div>
+                <div class="card-row-right profile-text" id="profile_text"></div>
+            </div>
+            <!--<div class="weixin-certify clear">-->
+                <!--<div class="card-left-title">微信认证</div>-->
+                <!--<div class="card-row-right certify-text">上海看榜信息科技有限公司</div>-->
+            <!--</div>-->
+        </div>
+
+        <div class="tag-and-time">
+            <div class="card-tag clear">
+                <div class="card-left-title">分类标签</div>
+                <div class="card-row-right tag-group" id="tag_group"></div>
+            </div>
+            <div class="join-newrank-date clear">
+                <div class="card-left-title">加入新榜</div>
+                <div class="card-row-right join-date" id="join_date"></div>
+            </div>
+            <div class="honour-medal">
+                <div class="card-left-title">荣誉勋章</div>
+                <div class="card-row-right">
+                    <span class="iconfont icon-xdn-renzheng icon-renzhen" id="is_newrank"></span>
+                    <span class="iconfont icon-xdn-month-top icon-500" id="month_top_time"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-bottom-account">
+            <div class="weixin-certify clear">
+                <div class="card-left-title">微信认证</div>
+                <div class="card-row-right certify-text" id="certify_text"></div>
+            </div>
+            <div class="common-account clear">
+                <div class="card-left-title">同主体公号</div>
+                <div class="card-row-right certify-text">
+                    <div class="common-account-box clear">
+                        <!--<div class="account-one"></div>-->
+                    </div>
+                    <div class="common-account-num"><span id="common_total_num"></span><span class="iconfont icon-xdn-next"></span></div>
+                </div>
+            </div>
+            <div class="all-platform clear">
+                <!--<div class="platform-one">-->
+                    <!--<i class="m-detail-pic common-weibo"></i>-->
+                    <!--<a>新榜官微</a>-->
+                <!--</div>-->
+            </div>
+        </div>
+
+
+        <!--<div class="card-bottom-code">-->
+            <!--<div class="card-accout-code"></div>-->
+        <!--</div>-->
+
+
+    </div>
+</div>
+
+
+<div class="m-mask"></div>
+
+<div class="concern-account-box" style="display: none;">
+    <p class="account-is-use-hns" id="account_is_use_hns">该公众号使用了升级版号内搜</p>
+    <img class="concern-account-code" src="" id="concern_account_code">
+    <p class="concern-account" id="concern_account"></p>
+    <p class="concern-bottom-tip">长按识别二维码关注该公众号</p>
+</div>
+
+
+
+</body>
+
+
+<script language="javascript" src="http://localhost/assets/common/js/config/Qlive.js"></script>
+<script language="javascript" src="http://localhost/assets/common/js/config/QLive-config.js"></script>
+
+<script src="../../assets/js/components/detail.js"></script>
+
+</html>

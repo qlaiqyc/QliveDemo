@@ -1,0 +1,692 @@
+body{background-color: #f3f3f3;}
+.top-nav {
+    width: 100%;
+    height: 2.86rem;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid #e3e3e3;
+    z-index: 1003;
+}
+.top-nav a {
+    width: 33.33%;
+    height: 2.69rem;
+    line-height: 2.86rem;
+    color: #999;
+    font-size: 1.14rem;
+    text-align: center;
+    float: left;
+}
+.top-nav a.active {
+    color: #FF8C00;
+    border-bottom: 2px solid #ff8c00;
+}
+.page-main{
+    padding-top: 2.86rem;
+}
+
+/*公众号详情*/
+.no-charts-show-tip{
+    margin: 8.85rem auto 0;
+    /*display: none;*/
+}
+.no-charts-show-tip img{
+    width: 6.78rem;
+    height: 6.78rem;
+    display: block;
+    margin:0 auto 15px;
+}
+.no-charts-show-tip p{
+    font-size: 1rem;
+    color:#999;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+.list-detail-info{
+    margin-top:0.71rem;
+    background-color: #fff;
+}
+.list-info-top{
+    position: relative;
+    padding: 0 8% 0.71rem;
+    border-bottom: 1px solid #e3e3e3;
+}
+.list-info-date{
+    text-align: center;
+    font-size: 1.07rem;
+    color:#999;
+    padding: 0.71rem 0;
+    /*position: relative;*/
+    /*z-index: 1001;*/
+}
+.list-info-date span.iconfont{
+    font-size: 0.6rem;
+    color:#999;
+}
+.list-date-ul{
+    background-color: #fff;
+    position: absolute;
+    top:2.86rem;
+    width: 6.93rem;
+    left: 50%;
+    margin-left: -3.465rem;
+    border-radius: 5px;
+    z-index: 1000;
+}
+.list-triangle{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0.57rem;
+    border-color: transparent transparent white transparent;
+    position: absolute;
+    top: -1.07rem;
+    left: 50%;
+    margin-left: -0.28rem;
+}
+.list-date-ul span{
+    border-bottom: 1px solid #e3e3e3;
+    font-size: 0.93rem;
+    color:#333;
+    width: 100%;
+    height: 1.79rem;
+    line-height: 1.79rem;
+    text-align: center;
+    display: inline-block;
+}
+.list-date-ul span:last-child{
+    border:none;
+}
+.list-top-left-num{
+    font-size: 0.86rem;
+    color:#3a3a3a;
+    /*width: 43%;*/
+    float: left;
+    /*text-align: right;*/
+}
+.left-num-text{
+    float: left;
+    text-align: left;
+}
+.left-num-text div{
+    height: 1.78rem;
+    line-height: 1.78rem;
+}
+.left-align-right-num{
+    float: left;
+    margin-left:0.14rem;
+    text-align: right;
+    width: 2.78rem;
+}
+.left-align-right-num div{
+    height: 1.78rem;
+    line-height: 1.78rem;
+}
+
+.list-top-left-num .align-right{
+    text-align: right;
+    display: inline-block;
+}
+.list-top-left-num span.num{
+    font-size: 1.28rem;
+    color: #FF8C00;
+    margin-right: 0.28rem;
+}
+.list-top-left-num span.unit{
+    font-size: 0.71rem;
+    color:#999;
+}
+.list-top-part-line{
+    width: 1px;
+    height: 4.28rem;
+    background-color: #E3E3E3;
+    margin:0.57rem 6%;
+    float: left;
+}
+.list-right-rank{
+    font-size: 0.86rem;
+    color:#3a3a3a;
+    /*width: 46%;*/
+    float: left;
+    margin-top: 0.93rem;
+    position: relative;
+}
+.list-right-div{
+    float: left;
+    margin-right: 0.93rem;
+}
+.list-right-div .index{
+    font-size:1.43rem ;
+    color:#ff8c00;
+    margin-top: 0.57rem;
+}
+/*.list-right-tag{*/
+    /*width: 41px;*/
+    /*height: 19px;*/
+    /*background-position: -5px -2px;*/
+    /*float: left;*/
+    /*line-height: 19px;*/
+    /*font-size: 0.9rem;*/
+    /*color: #fff;*/
+    /*position: absolute;*/
+    /*right: -50px;*/
+    /*padding-left: 6px;*/
+    /*top: 26px;*/
+/*}*/
+.list-right-tag {
+    width: 3.21rem;
+    height: 1.36rem;
+    line-height: 1.36rem;
+    font-size: 0.9rem;
+    color: #fff;
+    position: absolute;
+    left: 8.57rem;
+    bottom: 0.21rem;
+    background: #ff8c00;
+    text-align: center;
+}
+.list-info-bottom{
+    padding-bottom: 0.71rem;
+}
+.list-bottom-tab {
+    margin: auto;
+    padding: 0.71rem;
+    width: 7.5rem;
+}
+.list-bottom-tab span.first-tab {
+    border-right: none;
+}
+.list-bottom-tab span.checked {
+    background-color: #f6f6f6;
+    color: #333;
+}
+.list-bottom-tab span {
+    display: inline-block;
+    width: 3.57rem;
+    height: 2.07rem;
+    line-height: 2.07rem;
+    border: 1px solid #e3e3e3;
+    background-color: #fff;
+    color: #999;
+    text-align: center;
+    font-size: 1rem;
+}
+.list-bottom-box{
+    margin-top: 0.36rem;
+}
+.list-bottom-read-num{
+    width: 33.33%;
+    float: left;
+}
+.list-read-num{
+    width: 4.28rem;
+    height: 4.28rem;
+    border:1px solid #c3c3c3;
+    line-height: 4.28rem;
+    text-align: center;
+    font-size: 0.93rem;
+    color:#FF8C00;
+    margin: auto;
+    border-radius: 100%;
+}
+.list-bottom-title{
+    text-align: center;
+    font-size: 0.86rem;
+    color:#999;
+    margin-top: 0.71rem;
+}
+.list-bottom-title .iconfont{
+    font-size: 0.7rem;
+}
+.list-info-charts{
+    margin-top: 0.71rem;
+    padding-bottom: 0.71rem;
+    background-color: #fff;
+}
+.list-info-charts-detail{
+    width: 90%;
+    height: 10.7rem;
+    margin: auto;
+}
+
+
+
+/*发布文章*/
+.public-article-body {
+    margin-top: 0.71rem;
+    background-color: #fff;
+}
+.topic-top-tab {
+    padding: 0.71rem;
+}
+.topic-top-tab .to-hns{
+    float: right;
+    height: 1.786rem;
+    line-height: 1.786rem;
+    color: #fff;
+    font-size: 0.86rem;
+    text-align: center;
+    background: #ff8c00;
+    width: 6.15rem;
+    border-radius: 0.4rem;
+    margin-top: 0.214rem;
+}
+.topic-top-tab .to-hns i{
+    font-style: normal;
+}
+.topic-top-tab .to-hns i.iconfont{
+    font-size: 0.82rem;
+    margin-right: .12rem;
+
+}
+.topic-top-tab span.latest-public {
+    border-right: none;
+}
+.topic-top-tab span.checked {
+    background-color: #f6f6f6;
+    color: #333;
+}
+.topic-top-tab span {
+    display: inline-block;
+    width: 6.25rem;
+    height: 2.07rem;
+    line-height: 2.07rem;
+    border: 1px solid #e3e3e3;
+    background-color: #fff;
+    color: #999;
+    text-align: center;
+    font-size: 1rem;
+}
+.latest-public-spe{
+    border-color: #fff!important;
+    background: #fff!important;
+    font-size: 1.14rem!important;
+    text-align: left!important;
+}
+.public-article-list {
+    background-color: #fff;
+}
+.article-one {
+    border-top: 1px solid #e3e3e3;
+    padding: 0.71rem 0.71rem 0.61rem ;
+}
+.article-one .left-article-img {
+    float: left;
+    /* width: 8.21rem; */
+    width: 36.5%;
+    height: 5.36rem;
+}
+.article-one .left-article-img img {
+    width: 100%;
+    height: 5.36rem;
+}
+.article-one .right-article-info {
+    float: left;
+    width: 100%;
+}
+.right-article-info .h-title {
+    font-size: 1.07rem;
+    color: #333;
+    height: 2.2rem;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.right-article-info .h-title span.h-original{
+    font-size: 0.86rem;
+    color: #999;
+    width: 2.64rem;
+    height: 1.14rem;
+    display: inline-block;
+    border: 1px solid #e3e3e3;
+    border-radius: 0.71rem;
+    text-align: center;
+    line-height: 1.14rem;
+    vertical-align: middle;
+    margin-right: 0.2rem;
+}
+.right-article-info .h-summary {
+    font-size: 0.93rem;
+    color: #999;
+    max-height: 2.8rem;
+    line-height: 1.4rem;
+}
+.right-article-info .h-bottom {
+    color: #999;
+    font-size: 0.71rem;
+    margin-top: .5rem;
+    height: 1.14rem;
+    line-height: 1.14rem;
+}
+.right-article-info .h-right{
+    float: right;
+    margin-right: .71rem;
+}
+.h-bottom .h-date {
+    color: #d4d4d4;
+}
+.h-bottom .h-read{
+    display: inline-block;
+}
+.h-bottom .h-read i.iconfont {
+    font-size: .7rem;
+    color: #c3c3c3;
+    margin-right: .2rem;
+}
+.h-read .read-num{
+    color: #c3c3c3;
+}
+.article-one .h-line{
+    width: 1px;
+    height: 0.71rem;
+    background-color: #e3e3e3;
+    display: inline-block;
+    margin: 0 0.36rem;
+}
+.h-bottom .h-order-num {
+    font-size: .7rem;
+    color: #d4d4d4;
+}
+.h-bottom .h-like i.iconfont {
+    font-size: .8rem;
+    color: #c3c3c3;
+    margin-right: .2rem;
+}
+.h-like .like-num{
+    color: #c3c3c3;
+}
+.h-bottom .h-like{
+   display: inline-block;
+}
+
+
+/*公众号名片*/
+.list-detail-info-main{
+    display: none;
+}
+.card-top-account{
+    background: #fff;
+    margin-top: 0.71rem;
+    height: 6.78rem;
+    padding: 0 1.07rem;
+}
+.card-top-account .card-left-img-box{
+    width: 5rem;
+    height: 5rem;
+    background: #fff;
+    border:1px solid #E3E3E3;
+    border-radius: 100%;
+    margin-top: 11.5px;
+    float: left;
+    position: relative;
+}
+.card-left-img{
+    width: 4.3rem;
+    height: 4.3rem;
+    border-radius: 100%;
+    /*background: url("http://open.weixin.qq.com/qr/code/?username=newrankcn") 50% 50% no-repeat scroll transparent;*/
+    /*background: url("http://open.weixin.qq.com/qr/code/?username=dapapi") 50% 50% no-repeat scroll transparent;*/
+    margin: 0.36rem;
+}
+.card-left-img i.iconfont{
+    position: absolute;
+    bottom: 0.36rem;
+    right: 0;
+    color:#ff8c00;
+    display: none;
+}
+.card-account-detail{
+    float: left;
+    margin-left: 0.71rem;
+    margin-top: 1.71rem;
+}
+.card-account-detail .card-name{
+
+}
+.card-name .name{
+    font-size: 1.14rem;
+    color:#3a3a3a;
+}
+.card-name .brand{
+    width: 2.21rem;
+    height: 1.07rem;
+    line-height: 1.07rem;
+    color:#fff;
+    text-align: center;
+    display: none;
+    margin-left: 0.1rem;
+    background-color: #33c0f3;
+    font-size:0.86rem ;
+}
+.card-account-detail .card-account{
+    font-size: 1rem;
+    color:#3a3a3a;
+    margin-top: 0.4rem;
+}
+.card-right-box{
+    float: right;
+    margin-top: 24px;
+    text-align: center;
+}
+.card-right-box p{
+    color:#d4d4d4;
+    font-size:0.86rem ;
+    margin-top: 0.14rem;
+}
+.card-right-index{
+    font-size: 1.43rem;
+    color:#ff8c00;
+}
+.honour-medal{
+    background: #fff;
+    height: 3.21rem;
+    line-height: 3.21rem;
+    border-bottom: 1px solid #fff;
+}
+.card-left-title{
+    font-size:1.14rem ;
+    color:#3a3a3a;
+    float: left;
+    width: 32%;
+}
+.common-account-box{
+    float: left;
+}
+.card-row-right{
+    float: right;
+    width: 68%;
+}
+.card-row-right .icon-500{
+    font-size: 1.9rem;
+    color: #ff6464;
+    display: none;
+}
+.card-row-right .icon-renzhen{
+    font-size: 1.9rem;
+    color:#2be0b0;
+    display: none;
+    margin-right: 0.71rem;
+}
+.card-info{
+    background: #fff;
+    margin-top: 0.71rem;
+    padding: 0 1.07rem;
+}
+.function-profile{
+    padding: 1rem 0;
+    /*border-bottom: 1px solid #e3e3e3;*/
+}
+.card-bottom-account{
+    background: #fff;
+    margin-top: 0.71rem;
+    padding: 0 1.07rem;
+}
+.card-bottom-account div:last-child{
+    border:none;
+}
+.weixin-certify{
+    height: 3.21rem;
+    line-height: 3.21rem;
+    border-bottom: 1px solid #e3e3e3;
+}
+.common-account{
+    height: 4.28rem;
+    line-height: 4.28rem;
+    border-bottom: 1px solid #e3e3e3;
+}
+.profile-text{
+    font-size: 1rem;
+    color:#999;
+    margin-top: .1rem;
+}
+.certify-text{
+    font-size: 1rem;
+    color:#999;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.tag-and-time{
+    background: #fff;
+    margin-top: 0.71rem;
+    padding: 0 1.07rem;
+}
+.tag-and-time div:last-child{
+    border:none;
+}
+.card-tag{
+    height: 3.21rem;
+    line-height: 3.21rem;
+    border-bottom: 1px solid #e3e3e3;
+}
+.card-tag .tag-group{
+    font-size: 0.93rem;
+    color:#b2b2b2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.join-newrank-date{
+    height: 3.21rem;
+    line-height: 3.21rem;
+    border-bottom: 1px solid #e3e3e3;
+}
+.join-date{
+    font-size: 1rem;
+    color:#999;
+}
+.card-bottom-code{
+    background: #fff;
+    margin-top: 0.71rem;
+    padding: 0 1.07rem;
+    height: 10rem;
+    position: relative;
+}
+.card-accout-code{
+    width: 7.86rem;
+    height: 7.86rem;
+    background: url("http://open.weixin.qq.com/qr/code/?username=dapapi");
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    top:1.07rem;
+    margin-left: -3.93rem;
+}
+.common-account-box .account-one{
+    float: left;
+    width: 2.14rem;
+    height: 2.14rem;
+    border-radius: 100%;
+    margin-right: 1rem;
+    /*background: url("http://open.weixin.qq.com/qr/code/?username=zhengshangcanyue") 50% 50% no-repeat scroll transparent;*/
+    margin-top: 1.07rem;
+}
+.common-account-num{
+    float: right;
+    font-size: 1rem;
+    color:#999;
+}
+.common-account-num span.iconfont{
+    font-size: 0.8rem;
+    margin-left: .2rem;
+}
+.all-platform{
+    /*line-height: 3.57rem;*/
+    min-height: 3rem;
+    line-height: 3rem;
+}
+.all-platform .platform-one{
+    float: left;
+    margin-right: 1.43rem;
+}
+.m-detail-pic {
+    background: url(/assets/img/detail/detail.png) no-repeat scroll transparent;
+}
+.all-platform a{
+    font-size: 1.07rem;
+    color:#333;
+}
+/*两微一端*/
+.common-weibo{display:inline-block;width:24px;height:24px;background-position:-72px -168px;vertical-align:-6px;margin-right:5px;}
+.common-toutiao{display:inline-block;width:24px;height:24px;background-position:-120px -168px;vertical-align:-6px;margin-right:5px;}
+.common-sohu{display:inline-block;width:24px;height:24px;background-position:-96px -168px;vertical-align:-6px;margin-right:5px;}
+.common-baijia{display:inline-block;width:24px;height:24px;background-position:-48px -240px;vertical-align:-6px;margin-right:5px;}
+.common-baidu{display:inline-block;width:24px;height:24px;background-position:-72px -240px;vertical-align:-6px;margin-right:5px;}
+.common-ifeng{display:inline-block;width:24px;height:24px;background-position:-96px -240px;vertical-align:-6px;margin-right:5px;}
+.common-xima{display:inline-block;width:24px;height:24px;background-position:-120px -240px;vertical-align:-6px;margin-right:5px;}
+.common-kaola{display:inline-block;width:24px;height:24px;background-position:-144px -240px;vertical-align:-6px;margin-right:5px;}
+.common-lizhi{display:inline-block;width:24px;height:24px;background-position:-168px -240px;vertical-align:-6px;margin-right:5px;}
+.common-thepaper{display:inline-block;width:24px;height:24px;background-position:-192px -240px;vertical-align:-6px;margin-right:5px;}
+.common-qingting{display:inline-block;width:24px;height:24px;background-position:-216px -240px;vertical-align:-6px;margin-right:5px;}
+.common-qq{display:inline-block;width:24px;height:24px;background-position:-240px -240px;vertical-align:-6px;margin-right:5px;}
+.common-163{display:inline-block;width:24px;height:24px;background-position:-264px -240px;vertical-align:-6px;margin-right:5px;}
+.common-sina{display:inline-block;width:24px;height:24px;background-position:-288px -240px;vertical-align:-6px;margin-right:5px;}
+.common-yidianzixun{display:inline-block;width:24px;height:24px;background-position:-312px -240px;vertical-align:-6px;margin-right:5px;}
+.common-zaker{display:inline-block;width:24px;height:24px;background-position:-336px -240px;vertical-align:-6px;margin-right:5px;}
+.common-frute{display:inline-block;width:24px;height:24px;background-position:-360px -240px;vertical-align:-6px;margin-right:5px;}
+.common-tiantian{display:inline-block;width:24px;height:24px;background-position:-384px -240px;vertical-align:-6px;margin-right:5px;}
+.common-qq-account{display:inline-block;width:24px;height:24px;background-position:-408px -240px;vertical-align:-6px;margin-right:5px;}
+.common-youku{display:inline-block;width:24px;height:24px;background-position:-432px -240px;vertical-align:-6px;margin-right:5px;}
+
+.concern-account-box{
+    width: 17.8rem;
+    left: 50%;
+    top: 20%;
+    /*margin-top: -141.5px;*/
+    margin-left: -8.9rem;
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    z-index: 1002;
+    border-radius: 5px;
+}
+.concern-account-box p{
+    font-size: .8rem;
+    color: #ccc;
+    text-align: center;
+}
+.account-is-use-hns{
+    margin-top: 1.2rem;
+    margin-bottom: -0.7rem;
+    display: none;
+}
+.concern-account-code{
+    width: 14rem;
+    height: 14rem;
+    display: block;
+    margin: 0 auto;
+    padding-top: 0.7rem;
+}
+.concern-bottom-tip{
+    font-size: 0.7rem!important;
+    color: #333!important;
+    margin-top: 0.5rem;
+    padding-bottom: 0.7rem;
+}
+
+
+
+
